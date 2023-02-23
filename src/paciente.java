@@ -19,4 +19,8 @@ public class paciente {
     public String getNombre() {
         return nombre;
     }
+
+    public int getEdad() {
+        return edad;
+    }
 }

@@ -124,6 +124,23 @@ public class cola {
         System.out.println("----------");
     }
 
+    public static void sigPaciente() {
+        if (!cola1.isEmpty()) {
+            paciente pSig = cola1.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 1:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola2.isEmpty()) {
+            paciente pSig = cola2.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 2:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+    }
+
     public static boolean menu() {
         Scanner teclado = new Scanner(System.in);
         int opcion = 0;
@@ -138,12 +155,12 @@ public class cola {
             nuevoPaciente();
             return true;
         }
-        else if (opcion == 3) {
-            mostrarColas();
+        else if (opcion == 2) {
+            sigPaciente();
             return true;
         }
         else if (opcion == 3) {
-            // El metodo que sea
+            mostrarColas();
             return true;
         }
         else if (opcion == 4) {
