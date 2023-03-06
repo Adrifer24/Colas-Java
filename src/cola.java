@@ -139,7 +139,72 @@ public class cola {
             System.out.println("Nombre: "+pSig.getNombre());
             System.out.println("Edad: "+pSig.getEdad());
         }
+        else if (!cola3.isEmpty()) {
+            paciente pSig = cola3.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 3:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola4.isEmpty()) {
+            paciente pSig = cola4.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 4:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola5.isEmpty()) {
+            paciente pSig = cola5.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 5:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola6.isEmpty()) {
+            paciente pSig = cola6.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 6:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola7.isEmpty()) {
+            paciente pSig = cola7.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 7:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola8.isEmpty()) {
+            paciente pSig = cola8.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 8:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola9.isEmpty()) {
+            paciente pSig = cola9.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 9:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola10.isEmpty()) {
+            paciente pSig = cola10.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 10:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else if (!cola11.isEmpty()) {
+            paciente pSig = cola11.poll();
+            System.out.println("SIGUIENTE PACIENTE");
+            System.out.println("COLA 11:");
+            System.out.println("Nombre: "+pSig.getNombre());
+            System.out.println("Edad: "+pSig.getEdad());
+        }
+        else System.out.println("No hay ningún paciente");
     }
+
 
     public static boolean menu() {
         Scanner teclado = new Scanner(System.in);
