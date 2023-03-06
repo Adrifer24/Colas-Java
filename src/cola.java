@@ -65,6 +65,8 @@ public class cola {
 
     }
 
+
+
     public static void mostrarColas() {
         System.out.println("---------------");
         System.out.println("Cola 1: ");
